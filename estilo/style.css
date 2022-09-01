@@ -5,11 +5,10 @@
 }
 
 :root{
-    --cor-de-fundo: purple;
-    --cor-de-secundaria: white;
-    --cor-de-azul: blue;
+    --cor-de-fundo: white;
+    --cor-de-secundaria: purple;
     --cor-de-preto: black;
-    --cor-de-verde: green;
+
 }
 
 body{
