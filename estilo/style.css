@@ -6,9 +6,9 @@
 }
 
 :root{
-    --cor-de-fundo: rgb(160, 7, 231);
+    --cor-de-fundo: rgb(13, 253, 5);
     --cor-secundaria: rgb(255, 255, 255);
-    --cor-azul: rgb(21, 255, 0);
+    --cor-azul: rgb(0, 4, 255);
     --cor-preto: rgb(0, 0, 0);
     --cor-laranja-claro: rgb(255, 235, 205);
 
@@ -166,7 +166,7 @@ footer{
     margin:0;
     text-transform: uppercase;
     /* Isto é um comentário em CSS*/
-    color: rgb(0, 0, 255);
+    color: rgb(89, 0, 255);
     /* color: rgb(0, 0, 255, 0.5); */
     /* color: #0000FF; hexadecimal */
 }
@@ -183,6 +183,7 @@ img{
     display: block;
     font-size: 18px;
     text-align: center;
+    background-color: black; 
 }
 
 aside, nav, ul{
