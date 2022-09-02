@@ -6,9 +6,9 @@
 }
 
 :root{
-    --cor-de-fundo: rgb(231, 134, 7);
+    --cor-de-fundo: rgb(160, 7, 231);
     --cor-secundaria: rgb(255, 255, 255);
-    --cor-azul: rgb(0,0,255);
+    --cor-azul: rgb(21, 255, 0);
     --cor-preto: rgb(0, 0, 0);
     --cor-laranja-claro: rgb(255, 235, 205);
 
