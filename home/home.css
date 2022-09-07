@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --cor-de-fundo: rgb(250, 3, 238);
+    --cor-secundaria: rgb(255,255,255);
+    --cor-verde: rgb(46, 252, 5);
+}
+body{
+    font-family: roboto, sans-serif;
+    width: 1500px;
+    margin: auto;
+    background-color: var (--cor-de-fundo);
+}
