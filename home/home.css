@@ -4,6 +4,26 @@
     box-sizing: border-box;
 
 }
+header{
+    width: 1500px;
+    height: 40px;
+    background-color: blueviolet;
+
+
+}
+
+#figure{
+    width: 1500px;
+    height: 500px;
+    position:absolute;
+   
+
+}
+#logo{
+    width: 200px;
+    height: 70px;
+    float:inherit;
+}
 
 :root{
     --cor-de-fundo: rgb(250, 3, 238);
