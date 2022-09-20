@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;/*preenchimento*/
+    box-sizing: border-box;
+}
+:root{
+    --cor-de-fundo: rgb(232, 5, 253);
+    --cor-secundaria: rgb(255,255,255);
+    --cor-verde: rgb(3, 250, 3); 
+    --cor-preto: rgb(0 0 0);
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: var(--cor-de-fundo);
+    width: 980px;/*largura*/
+    height: 300px;/*altura*/
+    margin: auto;
+    position: relative;
+}
+
+header img{
+    width: 90px; /*largura*/
+}
+#logo{
+    width: 980px;/*largura*/
+    height: 350px;/*altura*/
+    left: 0;/*esquerda*/
+    top: 20px;
+}
+input[type=text]{
+    width: 650px; /*largura */
+    height: 35px; /*altura */
+    font-size: 25px; /*tamanho da fonte*/
+    line-height: 45px; /*altura da linha*/
+    position: absolute;
+    left: 250px;/*esquerda*/
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 0 5px; /*preenchimento*/
+
+}
+#textoEnviamos{
+    position: absolute;
+    left: 260px;/*esquerda*/
+    top: 80px;
+    font-size: 25px; /*tamnho da fonte*/
+    text-align: center;
+    color: var(--cor-secundaria);
+
+}
+input #busque, h1 #textoEnviamos{
+    width: 980px; /*largura*/
+    margin: 25px;
+}
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;/*cor de fundo*/
+    border: none;/*fronteira*/
+
+}
+#clientes{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: none;/*cor de fundo*/
+    border: none; /* fronteira none= nenhum */
+}
+
+header nav ul li{
+    display: inline-block; /* inline-block bloco em linha*/
+}
+main{
+    width: 1024px;/*largura*/
+    margin: auto;
+    float: left; /*flutuar para a esquerda*/
+    background-color: var(--cor-secundaria); /*cor de fundo*/
+    text-align: justify;/*text-align=alinhamento de texto justify=justificar*/
+    border: 10px solid #7A7A7A;
+    display: block;
+    margin: 0 5%;
+    
+}
+blockquote{
+    width: 30%;/*largura*/
+    padding: 10px;/*preenchimento*/
+    float: left;/*flutuar para a esquerda*/
+    border: 10px solid #7a7a7a; /*fronteira*/
+    display: block;
+    margin: 0 5%;
+}

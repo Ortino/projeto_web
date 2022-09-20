@@ -5,7 +5,7 @@
 
 }
 header{
-    width: 1500px;
+    width: 980px;
     height: 40px;
     background-color: blueviolet;
 
@@ -13,16 +13,16 @@ header{
 }
 
 #figure{
-    width: 1500px;
+    width: 980px;
     height: 500px;
     position:absolute;
    
 
 }
 #logo{
-    width: 200px;
-    height: 70px;
-    float:inherit;
+    width: 980px;
+    height: 300px;
+
 }
 
 :root{
