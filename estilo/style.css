@@ -133,3 +133,13 @@ nav li a:hover/*flutuar*/{
     text-transform: bold;/*transformação de texto: negrito*/
     transition: .6s;/*transformação de texto: negrito*/
 }
+footer{
+    height: 45px;/*altura*/
+    line-height: 45px; /*altura da linha*/
+    background-color: black; /*cor de fundo*/
+    color: blanchedalmond; /*amêndoa branca*/
+    clear: both; /*limpar ambos*/
+}
+.divisaoColuna{
+
+}
