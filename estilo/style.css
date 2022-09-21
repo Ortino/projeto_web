@@ -1,17 +1,13 @@
-* {
+*{
     margin: 0;
-    padding: 0;
+    padding: 0;/*preenchimento*/
     box-sizing: border-box;
-
 }
-
 :root{
-    --cor-de-fundo: rgb(13, 253, 5);
-    --cor-secundaria: rgb(255, 255, 255);
-    --cor-azul: rgb(0, 4, 255);
-    --cor-preto: rgb(0, 0, 0);
-    --cor-laranja-claro: rgb(255, 235, 205);
-
+    --cor-de-fundo: rgb(232, 5, 253);
+    --cor-secundaria: rgb(255,255,255);
+    --cor-verde: rgb(3, 250, 3); 
+    --cor-preto: rgb(0 0 0);
 }
 
 body{
@@ -21,205 +17,129 @@ body{
 
 header{
     background-color: var(--cor-de-fundo);
-    height: 150px;
-    width: 1024px;
+    width: 980px;/*largura*/
+    height: 300px;/*altura*/
     margin: auto;
     position: relative;
 }
 
-header nav{
-    width: 1024px;
+header img{
+    width: 90px; /*largura*/
+}
+#logo{
+    width: 980px;/*largura*/
+    height: 350px;/*altura*/
+    left: 0;/*esquerda*/
+    top: 20px;
+}
+input[type=text]{
+    width: 650px; /*largura */
+    height: 35px; /*altura */
+    font-size: 25px; /*tamanho da fonte*/
+    line-height: 45px; /*altura da linha*/
     position: absolute;
-    bottom: 0;
+    left: 250px;/*esquerda*/
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 0 5px; /*preenchimento*/
+
+}
+#textoEnviamos{
+    position: absolute;
+    left: 260px;/*esquerda*/
+    top: 80px;
+    font-size: 25px; /*tamnho da fonte*/
+    text-align: center;
+    color: var(--cor-secundaria);
+
+}
+input #busque, h1 #textoEnviamos{
+    width: 980px; /*largura*/
+    margin: 25px;
+}
+#carrinho{
+    position: absolute;
+    left: 20px; /*esquerda*/
+    top: 0;
+    background-color: none;/*cor de fundo*/
+    border: none;/*fronteira*/
+
+}
+#clientes{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: none;/*cor de fundo*/
+    border: none; /* fronteira none= nenhum */
 }
 
 header nav ul li{
-    display: inline-block;
+    display: inline-block; /* inline-block bloco em linha*/
 }
-
 main{
-    background-color: var(--cor-secundaria);
-    text-align: justify;
-    width: 1024px;
+    width: 1024px;/*largura*/
     margin: auto;
-    /* margin: 20px; */
-    padding: 20px;
-    position: relative;
-
- }
-
-blockquote{
-    padding: 10px;
-    float: left;
-    width: 30%;
-    background-color: rgb(206, 202, 202);
-    /* border-width: 10px;
-    border-style: solid;
-    border-color: black; */
-    border: 10px solid #7a7a7a;
+    float: left; /*flutuar para a esquerda*/
+    background-color: var(--cor-secundaria); /*cor de fundo*/
+    text-align: justify;/*text-align=alinhamento de texto justify=justificar*/
+    border: 10px solid #7A7A7A;
     display: block;
     margin: 0 5%;
     
 }
-
-cite{
+blockquote{
+    width: 30%;/*largura*/
+    padding: 10px;/*preenchimento*/
+    float: left;/*flutuar para a esquerda*/
+    border: 10px solid #7a7a7a; /*fronteira*/
     display: block;
-    /* margin: 15px;  Todos os lados iguais*/
-    /* margin: 15px 20px; Primeiro valor serve para o TOPO e BOTTOM o segundo valor é para  ESQUERDA e DIREITA*/
-    margin: 15px 5px 3px 0;
-    line-height: 20px;
-    text-align: right;
+    margin: 0 5%;
 }
-
-.limpaFloat{
-    clear: both;
+.limpafloat{
+    clear: both; /*limpar ambos*/
 }
-
 h2 {
-    font-size: 40px;
+    font-size: 40px;/*tamanho da fonte*/
 }
-
 p{
-    text-indent: 50px;
+    text-indent: 50px;/*recuo do texto*/
 }
-
-ul, ol {
-    list-style: none;
+ul, ol{
+    list-style: none;/*estilo de lista*/
 }
-
 figure{
-    width: 19.4%;
+    width: 20%;
     position: absolute;
     top: 20px;
-    right: 30px;    
-}
+    right: 30px;
 
+}
 aside, figure{
-    float: right;
-    background-color: #7a7a7a;
+    float: right;/*flutuar para a direita*/
+    background-color: #7A7A7A;/*cor de fundo*/
     color: var(--cor-secundaria);
-    border: 5px solid var(--cor-preto);
-}
-
-aside {
-    width: 18%;
-    margin: auto;
-    position: relative;
-    /* top: -34px; */
+    border: 5px solid var(--cor-preto);/*border=fronteira solid=sólido*/
     bottom: 34px;
-    right: 20px;
-    clear: right;
-    /* background-color: var(--cor-secundaria); */
-}
+    right: 20px;/*certa*/
+    clear: right;/*claro direito*/
 
+}
 li{
-    background-color: var(--cor-azul);
-    /* list-style-type: none;
-    display: block;
-    padding: 0;
-    height: 40px;
-    width: 40px; 
-    */
+    background-color: var(--cor-verde);
 }
-
-nav ul li a {
-    display: block;
-    color: var(--cor-secundaria);
-    padding: 10px;
-    text-decoration: none;
-    text-transform: bold;
-    text-align: center;
+nav li a:hover/*flutuar*/{
+    display: block;/*bloco de exibição*/
+    background-color: var(--cor-de-fundo); /*cor de fundo*/
+    text-transform: bold;/*transformação de texto: negrito*/
+    transition: .6s;/*transformação de texto: negrito*/
 }
-
-nav li a:hover{
-    display: block;
-    background-color: var(--cor-de-fundo);
-    text-transform: bold;
-    transition: .6s;
-}
-
 footer{
-    height: 50px;
-    line-height: 50px;
-    background-color: black;
-    color: blanchedalmond;
-    clear: both;/*left right both*/
+    height: 45px;/*altura*/
+    line-height: 45px; /*altura da linha*/
+    background-color: black; /*cor de fundo*/
+    color: blanchedalmond; /*amêndoa branca*/
+    clear: both; /*limpar ambos*/
 }
-
 .divisaoColuna{
-    float: left;
-    width: 40%;
+
 }
-
-.reducaoDoTexto{
-    width: 75%;
-}
-
-/* main h1{ */
-/*
- # = id 
- . = class
-*/
-.diferenciado {
-    font-family: Roboto, sans-serif;
-    font-size: 60px;
-    margin:0;
-    text-transform: uppercase;
-    /* Isto é um comentário em CSS*/
-    color: rgb(89, 0, 255);
-    /* color: rgb(0, 0, 255, 0.5); */
-    /* color: #0000FF; hexadecimal */
-}
-
-img{
-    width: 100%
-}
-
-.vermelho{
-    color: red;
-}
-
-#nomeCliente{
-    display: block;
-    font-size: 18px;
-    text-align: center;
-    background-color: black; 
-}
-
-aside, nav, ul{
-    background-color: var(--cor-azul);
-    /* todos os atributos de lista */
-    /* só o atributo tipo */
-    /* list-style-type: none; */
-}
-
-.icones-sociais li{
-    background-color: var(--cor-azul);
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin-left: 10px;
-}
-.icones-sociais a{
-    /* background-image: url(../img/github.png); */
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    color: white;
-    text-indent: -9999px;
-    /* font-size: 0 !important; */
-    /* color: rgba(0,0,0,0); */
- }
-
- .github{
-     background-image: url(../img/github.png);
- }
-
- .linkedin{
-     background-image: url(../img/linkedin.png);
- }
-
- .twitter{
-     background-image: url(../img/twitter.png)
- }
