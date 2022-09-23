@@ -27,8 +27,8 @@ header img{
     width: 90px; /*largura*/
 }
 #logo{
-    width: 980px;/*largura*/
-    height: 350px;/*altura*/
+    width: 100px;/*largura*/
+    height: 77px;/*altura*/
     left: 0;/*esquerda*/
     top: 20px;
 }
@@ -141,5 +141,15 @@ footer{
     clear: both; /*limpar ambos*/
 }
 .divisaoColuna{
-
+    float: right;
+    width: 50%;
+}
+.reducaoDoTexto{
+    width: 80%;
+}
+.diferenciado{
+    font-family: Roboto, sans-serif;
+}
+.vermelho{
+    color: blue;
 }
