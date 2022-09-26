@@ -151,5 +151,15 @@ footer{
     clear: both; /*limpar ambos*/
 }
 .divisaoColuna{
-
+    float: right;
+    width: 50%;
+}
+.reducaoDoTexto{
+    width: 80%;
+}
+.diferenciado{
+    font-family: Roboto, sans-serif;
+}
+.vermelho{
+    color: blue;
 }
