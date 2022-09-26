@@ -11,34 +11,35 @@
 }
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif; /*família de fontes*/
     background-color: var(--cor-de-fundo);
 }
 
 header{
     background-color: var(--cor-de-fundo);
-    width: 980px;/*largura*/
-    height: 300px;/*altura*/
+    width: 1024px;/*largura*/
+    height: 150px;/*altura*/
     margin: auto;
     position: relative;
 }
 
 header img{
-    width: 90px; /*largura*/
+    width: 80px; /*largura*/
 }
+
 #logo{
-    width: 100px;/*largura*/
-    height: 76px;/*altura*/
-    left: 0;/*esquerda*/
-    top: 20px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 68px;
+    width: 90px;
+
 }
-
-
 input[type=text]{
     width: 650px; /*largura */
-    height: 35px; /*altura */
+    height: 40px; /*altura */
     font-size: 25px; /*tamanho da fonte*/
-    line-height: 45px; /*altura da linha*/
+    line-height: 38px; /*altura da linha*/
     position: absolute;
     left: 250px;/*esquerda*/
     top: 10px;
@@ -55,10 +56,6 @@ input[type=text]{
     color: var(--cor-secundaria);
 
 }
-input #busque, h1 #textoEnviamos{
-    width: 980px; /*largura*/
-    margin: 25px;
-}
 #carrinho{
     position: absolute;
     left: 20px; /*esquerda*/
@@ -69,10 +66,17 @@ input #busque, h1 #textoEnviamos{
 }
 #clientes{
     position: absolute;
-    right: 10px;
+    right: 10px; /*certo*/
     top: 0;
     background-color: none;/*cor de fundo*/
     border: none; /* fronteira none= nenhum */
+}
+
+header nav{
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
 }
 
 header nav ul li{
@@ -129,8 +133,7 @@ aside, figure{
     bottom: 34px;
     right: 20px;/*certa*/
     clear: right;/*claro direito*/
-    width: 200PX;/*largura */
-    height: 300px;/*altura*/
+    width: 100PX;/*largura */
 }
 
 li{
@@ -144,7 +147,7 @@ nav li a:hover/*flutuar*/{
     transition: .6s;/*transformação de texto: negrito*/
 }
 footer{
-    height: 45px;/*altura*/
+    height: 1024px;/*altura*/
     line-height: 45px; /*altura da linha*/
     background-color: black; /*cor de fundo*/
     color: blanchedalmond; /*amêndoa branca*/
@@ -152,14 +155,20 @@ footer{
 }
 .divisaoColuna{
     float: right;
-    width: 50%;
 }
+
 .reducaoDoTexto{
     width: 80%;
 }
 .diferenciado{
     font-family: Roboto, sans-serif;
 }
-.vermelho{
+.azul{
     color: blue;
+}
+
+#nomeCliente{
+    display: block;/*quadrado*/
+    font-size: 20px;/*tamanho da fonte*/
+    text-align: center;/*alinhamento de texto*/
 }
