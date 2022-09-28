@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     padding: 0;/*preenchimento*/
     box-sizing: border-box;
 }
@@ -24,7 +23,7 @@ header{
 }
 
 header img{
-    width: 80px; /*largura*/
+    width: 90px; /*largura*/
 }
 
 #logo{
@@ -36,7 +35,7 @@ header img{
 
 }
 input[type=text]{
-    width: 650px; /*largura */
+    width: 500px; /*largura */
     height: 40px; /*altura */
     font-size: 25px; /*tamanho da fonte*/
     line-height: 38px; /*altura da linha*/
