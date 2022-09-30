@@ -20,7 +20,7 @@ main{
 header{
     width: 960px;
     height: 80px;
-    background-color: #B28500;
+    background-color: rgb(0, 178, 0);
     float: left;
     margin-bottom: 10px;
 }
@@ -82,7 +82,7 @@ h2{
     height: 90px;
     float: left;
     background-color: #CCC;
-    border:10px solid #B28500;
+    border:10px solid rgb(252, 3, 252);
     margin: 0 10px 25px 10px;
 }
 
