@@ -11,7 +11,7 @@
  
  trabalho do ~~curso de programação~~
  
- trabalho do *curso de programação *
+ trabalho do *curso de programação*
  
 [aqui] (https://www.youtube.com/watch?v=zpurwUDeunw)
 
