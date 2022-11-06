@@ -78,18 +78,18 @@ h2{
 }
 
 .box{
-    width: 120px;
-    height: 90px;
-    float: left;
+    width: 120px;/*largura*/
+    height: 90px;/*altura*/
+    float: left; /*futuador*/
     background-color: #CCC;
-    border:10px solid rgb(252, 3, 252);
+    border:10px solid rgb(252, 3, 252);/*fronteira*/
     margin: 0 10px 25px 10px;
 }
 
 footer{
-    width: 960px;
-    height: 25px;
-    background-color: #F6D470;
-    float: left;
+    width: 960px; /*largura */
+    height: 25px; /*altura */
+    background-color: #F6D470; /*cor de fundo*/
+    float: left; /*flutuador*/
 }
 
