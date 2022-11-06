@@ -1,0 +1,55 @@
+body{
+    font-family: 'Trebuchet MS';
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #039;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+main{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    background-color: #FFF;
+    display: table;
+    padding: 10px;
+    float: left;
+}
+
+header{
+    width: 1500px;
+    height: 80px;
+    background-color: rgb(0, 178, 0);
+    float: left; /*flutuador: esquerda */
+    left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#logo{
+    width: 200px;
+    height: 60px;
+    background-color: #999;
+    margin: 10px auto;
+}
+
+
+h2{
+    font-size: 25px;
+    font-weight: normal;
+    color: #FFF;
+    padding-left: 10px;
+    background-image: url(../img/gradiente.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+footer{
+    width: 1500px; /*largura */
+    height: 25px; /*altura */
+    background-color: #F6D470; /*cor de fundo*/
+    float: left; /*flutuador*/
+}
+
